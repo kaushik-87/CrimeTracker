@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D58387171D7E3394001383E9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D58387161D7E3394001383E9 /* main.m */; };
+		D583871A1D7E3394001383E9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D58387191D7E3394001383E9 /* AppDelegate.m */; };
+		D583871D1D7E3394001383E9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D583871C1D7E3394001383E9 /* ViewController.m */; };
+		D58387201D7E3394001383E9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D583871E1D7E3394001383E9 /* Main.storyboard */; };
+		D58387231D7E3394001383E9 /* CrimeTracker.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D58387211D7E3394001383E9 /* CrimeTracker.xcdatamodeld */; };
+		D58387251D7E3394001383E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D58387241D7E3394001383E9 /* Assets.xcassets */; };
+		D58387281D7E3394001383E9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D58387261D7E3394001383E9 /* LaunchScreen.storyboard */; };
+		D58387331D7E3394001383E9 /* CrimeTrackerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D58387321D7E3394001383E9 /* CrimeTrackerTests.m */; };
+		D583873E1D7E3394001383E9 /* CrimeTrackerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D583873D1D7E3394001383E9 /* CrimeTrackerUITests.m */; };
+		D583875C1D7E3641001383E9 /* Incident+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = D58387551D7E3641001383E9 /* Incident+CoreDataProperties.m */; };
+		D583875D1D7E3641001383E9 /* Incident.m in Sources */ = {isa = PBXBuildFile; fileRef = D58387571D7E3641001383E9 /* Incident.m */; };
+		D583875E1D7E3641001383E9 /* Location+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = D58387591D7E3641001383E9 /* Location+CoreDataProperties.m */; };
+		D583875F1D7E3641001383E9 /* Location.m in Sources */ = {isa = PBXBuildFile; fileRef = D583875B1D7E3641001383E9 /* Location.m */; };
+		D58387621D7E8955001383E9 /* CTLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = D58387611D7E8955001383E9 /* CTLocation.m */; };
+		D58387641D7E9B49001383E9 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D58387631D7E9B49001383E9 /* MapKit.framework */; };
+		D58387671D7F0DA9001383E9 /* CTCrimeIncidentTracker.m in Sources */ = {isa = PBXBuildFile; fileRef = D58387661D7F0DA9001383E9 /* CTCrimeIncidentTracker.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D583872F1D7E3394001383E9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D583870A1D7E3394001383E9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D58387111D7E3394001383E9;
+			remoteInfo = CrimeTracker;
+		};
+		D583873A1D7E3394001383E9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D583870A1D7E3394001383E9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D58387111D7E3394001383E9;
+			remoteInfo = CrimeTracker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D58387121D7E3394001383E9 /* CrimeTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CrimeTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D58387161D7E3394001383E9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D58387181D7E3394001383E9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D58387191D7E3394001383E9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D583871B1D7E3394001383E9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D583871C1D7E3394001383E9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D583871F1D7E3394001383E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D58387221D7E3394001383E9 /* CrimeTracker.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CrimeTracker.xcdatamodel; sourceTree = "<group>"; };
+		D58387241D7E3394001383E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D58387271D7E3394001383E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D58387291D7E3394001383E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D583872E1D7E3394001383E9 /* CrimeTrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CrimeTrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D58387321D7E3394001383E9 /* CrimeTrackerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CrimeTrackerTests.m; sourceTree = "<group>"; };
+		D58387341D7E3394001383E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D58387391D7E3394001383E9 /* CrimeTrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CrimeTrackerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D583873D1D7E3394001383E9 /* CrimeTrackerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CrimeTrackerUITests.m; sourceTree = "<group>"; };
+		D583873F1D7E3394001383E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D583874B1D7E360B001383E9 /* CrimeTracker-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CrimeTracker-Bridging-Header.h"; sourceTree = "<group>"; };
+		D58387541D7E3641001383E9 /* Incident+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Incident+CoreDataProperties.h"; sourceTree = "<group>"; };
+		D58387551D7E3641001383E9 /* Incident+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Incident+CoreDataProperties.m"; sourceTree = "<group>"; };
+		D58387561D7E3641001383E9 /* Incident.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Incident.h; sourceTree = "<group>"; };
+		D58387571D7E3641001383E9 /* Incident.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Incident.m; sourceTree = "<group>"; };
+		D58387581D7E3641001383E9 /* Location+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Location+CoreDataProperties.h"; sourceTree = "<group>"; };
+		D58387591D7E3641001383E9 /* Location+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Location+CoreDataProperties.m"; sourceTree = "<group>"; };
+		D583875A1D7E3641001383E9 /* Location.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Location.h; sourceTree = "<group>"; };
+		D583875B1D7E3641001383E9 /* Location.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Location.m; sourceTree = "<group>"; };
+		D58387601D7E8955001383E9 /* CTLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTLocation.h; sourceTree = "<group>"; };
+		D58387611D7E8955001383E9 /* CTLocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTLocation.m; sourceTree = "<group>"; };
+		D58387631D7E9B49001383E9 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		D58387651D7F0DA9001383E9 /* CTCrimeIncidentTracker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTCrimeIncidentTracker.h; sourceTree = "<group>"; };
+		D58387661D7F0DA9001383E9 /* CTCrimeIncidentTracker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTCrimeIncidentTracker.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D583870F1D7E3394001383E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D58387641D7E9B49001383E9 /* MapKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D583872B1D7E3394001383E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D58387361D7E3394001383E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D58387091D7E3394001383E9 = {
+			isa = PBXGroup;
+			children = (
+				D58387631D7E9B49001383E9 /* MapKit.framework */,
+				D58387541D7E3641001383E9 /* Incident+CoreDataProperties.h */,
+				D58387551D7E3641001383E9 /* Incident+CoreDataProperties.m */,
+				D58387561D7E3641001383E9 /* Incident.h */,
+				D58387571D7E3641001383E9 /* Incident.m */,
+				D58387581D7E3641001383E9 /* Location+CoreDataProperties.h */,
+				D58387591D7E3641001383E9 /* Location+CoreDataProperties.m */,
+				D583875A1D7E3641001383E9 /* Location.h */,
+				D583875B1D7E3641001383E9 /* Location.m */,
+				D58387141D7E3394001383E9 /* CrimeTracker */,
+				D58387311D7E3394001383E9 /* CrimeTrackerTests */,
+				D583873C1D7E3394001383E9 /* CrimeTrackerUITests */,
+				D58387131D7E3394001383E9 /* Products */,
+				D583874B1D7E360B001383E9 /* CrimeTracker-Bridging-Header.h */,
+			);
+			sourceTree = "<group>";
+		};
+		D58387131D7E3394001383E9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D58387121D7E3394001383E9 /* CrimeTracker.app */,
+				D583872E1D7E3394001383E9 /* CrimeTrackerTests.xctest */,
+				D58387391D7E3394001383E9 /* CrimeTrackerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D58387141D7E3394001383E9 /* CrimeTracker */ = {
+			isa = PBXGroup;
+			children = (
+				D58387181D7E3394001383E9 /* AppDelegate.h */,
+				D58387191D7E3394001383E9 /* AppDelegate.m */,
+				D583871B1D7E3394001383E9 /* ViewController.h */,
+				D583871C1D7E3394001383E9 /* ViewController.m */,
+				D58387651D7F0DA9001383E9 /* CTCrimeIncidentTracker.h */,
+				D58387661D7F0DA9001383E9 /* CTCrimeIncidentTracker.m */,
+				D58387601D7E8955001383E9 /* CTLocation.h */,
+				D58387611D7E8955001383E9 /* CTLocation.m */,
+				D583871E1D7E3394001383E9 /* Main.storyboard */,
+				D58387241D7E3394001383E9 /* Assets.xcassets */,
+				D58387261D7E3394001383E9 /* LaunchScreen.storyboard */,
+				D58387291D7E3394001383E9 /* Info.plist */,
+				D58387211D7E3394001383E9 /* CrimeTracker.xcdatamodeld */,
+				D58387151D7E3394001383E9 /* Supporting Files */,
+			);
+			path = CrimeTracker;
+			sourceTree = "<group>";
+		};
+		D58387151D7E3394001383E9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D58387161D7E3394001383E9 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D58387311D7E3394001383E9 /* CrimeTrackerTests */ = {
+			isa = PBXGroup;
+			children = (
+				D58387321D7E3394001383E9 /* CrimeTrackerTests.m */,
+				D58387341D7E3394001383E9 /* Info.plist */,
+			);
+			path = CrimeTrackerTests;
+			sourceTree = "<group>";
+		};
+		D583873C1D7E3394001383E9 /* CrimeTrackerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D583873D1D7E3394001383E9 /* CrimeTrackerUITests.m */,
+				D583873F1D7E3394001383E9 /* Info.plist */,
+			);
+			path = CrimeTrackerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D58387111D7E3394001383E9 /* CrimeTracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D58387421D7E3394001383E9 /* Build configuration list for PBXNativeTarget "CrimeTracker" */;
+			buildPhases = (
+				D583870E1D7E3394001383E9 /* Sources */,
+				D583870F1D7E3394001383E9 /* Frameworks */,
+				D58387101D7E3394001383E9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CrimeTracker;
+			productName = CrimeTracker;
+			productReference = D58387121D7E3394001383E9 /* CrimeTracker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D583872D1D7E3394001383E9 /* CrimeTrackerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D58387451D7E3394001383E9 /* Build configuration list for PBXNativeTarget "CrimeTrackerTests" */;
+			buildPhases = (
+				D583872A1D7E3394001383E9 /* Sources */,
+				D583872B1D7E3394001383E9 /* Frameworks */,
+				D583872C1D7E3394001383E9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D58387301D7E3394001383E9 /* PBXTargetDependency */,
+			);
+			name = CrimeTrackerTests;
+			productName = CrimeTrackerTests;
+			productReference = D583872E1D7E3394001383E9 /* CrimeTrackerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D58387381D7E3394001383E9 /* CrimeTrackerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D58387481D7E3394001383E9 /* Build configuration list for PBXNativeTarget "CrimeTrackerUITests" */;
+			buildPhases = (
+				D58387351D7E3394001383E9 /* Sources */,
+				D58387361D7E3394001383E9 /* Frameworks */,
+				D58387371D7E3394001383E9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D583873B1D7E3394001383E9 /* PBXTargetDependency */,
+			);
+			name = CrimeTrackerUITests;
+			productName = CrimeTrackerUITests;
+			productReference = D58387391D7E3394001383E9 /* CrimeTrackerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D583870A1D7E3394001383E9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Home;
+				TargetAttributes = {
+					D58387111D7E3394001383E9 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					D583872D1D7E3394001383E9 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = D58387111D7E3394001383E9;
+					};
+					D58387381D7E3394001383E9 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = D58387111D7E3394001383E9;
+					};
+				};
+			};
+			buildConfigurationList = D583870D1D7E3394001383E9 /* Build configuration list for PBXProject "CrimeTracker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D58387091D7E3394001383E9;
+			productRefGroup = D58387131D7E3394001383E9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D58387111D7E3394001383E9 /* CrimeTracker */,
+				D583872D1D7E3394001383E9 /* CrimeTrackerTests */,
+				D58387381D7E3394001383E9 /* CrimeTrackerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D58387101D7E3394001383E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D58387281D7E3394001383E9 /* LaunchScreen.storyboard in Resources */,
+				D58387251D7E3394001383E9 /* Assets.xcassets in Resources */,
+				D58387201D7E3394001383E9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D583872C1D7E3394001383E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D58387371D7E3394001383E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D583870E1D7E3394001383E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D583871D1D7E3394001383E9 /* ViewController.m in Sources */,
+				D58387231D7E3394001383E9 /* CrimeTracker.xcdatamodeld in Sources */,
+				D583871A1D7E3394001383E9 /* AppDelegate.m in Sources */,
+				D583875E1D7E3641001383E9 /* Location+CoreDataProperties.m in Sources */,
+				D58387621D7E8955001383E9 /* CTLocation.m in Sources */,
+				D58387171D7E3394001383E9 /* main.m in Sources */,
+				D58387671D7F0DA9001383E9 /* CTCrimeIncidentTracker.m in Sources */,
+				D583875C1D7E3641001383E9 /* Incident+CoreDataProperties.m in Sources */,
+				D583875F1D7E3641001383E9 /* Location.m in Sources */,
+				D583875D1D7E3641001383E9 /* Incident.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D583872A1D7E3394001383E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D58387331D7E3394001383E9 /* CrimeTrackerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D58387351D7E3394001383E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D583873E1D7E3394001383E9 /* CrimeTrackerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D58387301D7E3394001383E9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D58387111D7E3394001383E9 /* CrimeTracker */;
+			targetProxy = D583872F1D7E3394001383E9 /* PBXContainerItemProxy */;
+		};
+		D583873B1D7E3394001383E9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D58387111D7E3394001383E9 /* CrimeTracker */;
+			targetProxy = D583873A1D7E3394001383E9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D583871E1D7E3394001383E9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D583871F1D7E3394001383E9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D58387261D7E3394001383E9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D58387271D7E3394001383E9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D58387401D7E3394001383E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D58387411D7E3394001383E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D58387431D7E3394001383E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = CrimeTracker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kaushik.CrimeTracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "CrimeTracker-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D58387441D7E3394001383E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = CrimeTracker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kaushik.CrimeTracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "CrimeTracker-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		D58387461D7E3394001383E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CrimeTrackerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kaushik.CrimeTrackerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CrimeTracker.app/CrimeTracker";
+			};
+			name = Debug;
+		};
+		D58387471D7E3394001383E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CrimeTrackerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kaushik.CrimeTrackerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CrimeTracker.app/CrimeTracker";
+			};
+			name = Release;
+		};
+		D58387491D7E3394001383E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CrimeTrackerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kaushik.CrimeTrackerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CrimeTracker;
+			};
+			name = Debug;
+		};
+		D583874A1D7E3394001383E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CrimeTrackerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kaushik.CrimeTrackerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CrimeTracker;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D583870D1D7E3394001383E9 /* Build configuration list for PBXProject "CrimeTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D58387401D7E3394001383E9 /* Debug */,
+				D58387411D7E3394001383E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D58387421D7E3394001383E9 /* Build configuration list for PBXNativeTarget "CrimeTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D58387431D7E3394001383E9 /* Debug */,
+				D58387441D7E3394001383E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D58387451D7E3394001383E9 /* Build configuration list for PBXNativeTarget "CrimeTrackerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D58387461D7E3394001383E9 /* Debug */,
+				D58387471D7E3394001383E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D58387481D7E3394001383E9 /* Build configuration list for PBXNativeTarget "CrimeTrackerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D58387491D7E3394001383E9 /* Debug */,
+				D583874A1D7E3394001383E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D58387211D7E3394001383E9 /* CrimeTracker.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D58387221D7E3394001383E9 /* CrimeTracker.xcdatamodel */,
+			);
+			currentVersion = D58387221D7E3394001383E9 /* CrimeTracker.xcdatamodel */;
+			path = CrimeTracker.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D583870A1D7E3394001383E9 /* Project object */;
+}
